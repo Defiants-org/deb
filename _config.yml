@@ -1,0 +1,38 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://de-badkamer.be/uw_wensen_op_maat
+baseurl:
+title: "de badkamer: Uw wensen op maat"
+email:
+author:
+description: "Een nieuwe badkamer plaatsen of uw oude badkamer renoveren? Misschien kunt u vanavond al
+beginnen met dagdromen over uw nieuwe badkamer."
+port: 4001
+
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# ---------------------------------------------------------------------------- #
+#    1) copy plugins to config:
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
+#
+#    2) make gemfile in root and add the below:
+#   source 'https://rubygems.org'   (this is important for bundle install)
+#   gem 'jekyll-seo-tag'
+#   gem 'jekyll-sitemap'
+#
+#   3)  In command of project type: "bundle install" & then "bundle update"
+# ---------------------------------------------------------------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
